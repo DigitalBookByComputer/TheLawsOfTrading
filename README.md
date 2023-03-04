@@ -1,4 +1,0 @@
-# TheLawsOfTrading
-# TheLawsOfTrading
-# TheLawsOfTrading
-# TheLawsOfTrading
