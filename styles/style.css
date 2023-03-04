@@ -1,0 +1,104 @@
+/* PLACEMENT DES FONTS */
+
+/* Vos imports */
+
+/*@font-face {
+    font-family: "Name";
+    src: url("fonts/") format("woff2"), url("fonts/") format("woff");
+}*/
+
+/*font-family: "Name", serif;*/
+
+/* PLACEMENT ALL */
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    /*scroll-behavior: smooth;
+    scrollbar-width: none;*/
+}
+
+/* PLACEMENT HEADER */
+
+header {
+    
+}
+
+.container-contents-header {
+       
+}
+
+/* PLACEMENT MAIN */
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.container-contents-main {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover {
+    width: 95%;
+}
+
+/* PLACEMENT FOOTER */
+
+footer {
+
+}
+
+.container-contents-footer {
+
+}
+
+/* PLACEMENT MEDIA QUERY FOR COLOR AND SIZE */
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: black;
+    }
+
+    header {
+        background-color: black;
+        color: white;
+    }
+
+    main {
+        background-color: black;
+        color: white;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+}
